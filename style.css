@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter|Inconsolata);
+
+body {
+  font-family: 'Bitter', serif;
+  background-color: #fdf6e3;
+}
+
+.slide {
+  border: none;
+  margin: none;
+  background-color:#002b36;
+  color: #b58900;
+}
+
+.content {
+  padding: 0px 1em;
+}
+
+a, a:visited { color: #268bd2; }
+
+#footer {
+  background-color: #073642 !important;
+  color: #268bd2 !important;
+}
+
+code {
+  padding: 0.05em 0.25em;
+  background-color: #073642;
+  border-radius: 10px;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+pre {
+  padding: 0px !important;
+}
+pre code {
+  padding: 0px;
+  background: none;
+  border-radius: auto;
+}
+
+pre code.longer {
+  font-size: 80%;
+}
+pre code.longerer {
+  font-size: 70%;
+}
+
+pre {
+  padding: 0.5em 1em;
+  background: none;
+}
+
+.small {
+  font-size: 40%;
+}
+
+pre.sh_sourceCode {
+    background-color: #002b36;
+    color: #839496;
+}
+
+pre.sh_sourceCode .sh_keyword {
+    /*color: #cb4b16;*/
+    color: #b58900;
+}
+
+pre.sh_sourceCode .sh_type {
+    color: #859900;
+}
+
+pre.sh_sourceCode .sh_string {
+    /*color: #93a1a1;*/
+    color: #2aa198;
+}
+
+pre.sh_sourceCode .sh_symbol {
+    /*color: #93a1a1;*/
+    /*color: #2aa198;*/
+    /*color: #6c71c4;*/
+}
+
+pre.sh_sourceCode .sh_regexp {
+    /*color: #dc322f;*/
+    color: #d33683;
+}
+
+pre.sh_sourceCode .sh_specialchar {
+    color: #6c71c4;
+}
+
+pre.sh_sourceCode .sh_comment {
+    color: #586e75;
+}
+
+pre.sh_sourceCode .sh_number {
+    /*color: #dc322f;*/
+    color: #2aa198;
+}
+
+pre.sh_sourceCode .sh_preproc {
+    color: #6c71c4;
+}
+
+pre.sh_sourceCode .sh_function {
+    color: #d33682;
+}
+
+pre.sh_sourceCode .sh_url {
+    color: #dc322f;
+}
+
+pre.sh_sourceCode .sh_date {
+    color: #dc322f;
+}
+
+pre.sh_sourceCode .sh_time {
+    color: #dc322f;
+}
+
+pre.sh_sourceCode .sh_file {
+    color: #cb4b16;
+}
+
+pre.sh_sourceCode .sh_ip {
+    color: #dc322f;
+}
+
+pre.sh_sourceCode .sh_name {
+    color: #d33683;
+}
+
+pre.sh_sourceCode .sh_variable {
+    color: #b58900;
+}
+
+pre.sh_sourceCode .sh_oldfile {
+    color: #6c71c4;
+}
+
+pre.sh_sourceCode .sh_newfile {
+    color: #dc322f;
+}
+
+pre.sh_sourceCode .sh_difflines {
+    color: #cb4b16;
+}
+
+pre.sh_sourceCode .sh_selector {
+    color: #b58900;
+}
+
+pre.sh_sourceCode .sh_property {
+    color: #2aa198;
+}
+
+pre.sh_sourceCode .sh_value {
+    color: #dc322f;
+}
