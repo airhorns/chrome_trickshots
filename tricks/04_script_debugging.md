@@ -120,6 +120,13 @@
       jQuery.parseJSON ''
     )
 
+!SLIDE center takeaway
+
+ - Use `debugger` to add breakpoints to code
+ - Use the stack inspector to look at what is going on
+ - Use the console to evaluate stuff
+ - Use condition breakpoints to manage loop mayhem
+
 !SLIDE
 
 # More information
