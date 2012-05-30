@@ -32,10 +32,6 @@
 
 !SLIDE
 
-![lol](http://i56.tinypic.com/oawspk.gif)
-
-!SLIDE
-
 ### Or, if that is annoying, which it is:
 
 # CoffeeConsole

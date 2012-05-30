@@ -1,6 +1,7 @@
 !SLIDE full-page
 
 ![logo](google-chrome-logo.png)
+
 <script src="/file/scripts/coffee-script.js"></script>
 
 !SLIDE center
@@ -9,6 +10,9 @@
 
 ### Or, How to Use Chrome Good
 
+!SLIDE center small
+
+# [http://chrometrickshots.herokuapp.com/](http://chrometrickshots.herokuapp.com/)
 
 !SLIDE execute huge center
 
