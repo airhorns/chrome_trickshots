@@ -12,7 +12,7 @@
 
 !SLIDE center small
 
-# [http://chrometrickshots.herokuapp.com/](http://chrometrickshots.herokuapp.com/)
+# [http://chrometrickshots.heroku.com/](http://chrometrickshots.heroku.com/)
 
 !SLIDE execute huge center
 
