@@ -1,5 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter|Inconsolata);
 
+@font-face {
+    font-family: 'BurguesScriptRegular';
+    src: url('burgues_script-webfont.eot');
+    src: url('burgues_script-webfont.eot?#iefix') format('embedded-opentype'),
+         url('burgues_script-webfont.woff') format('woff'),
+         url('burgues_script-webfont.ttf') format('truetype'),
+         url('burgues_script-webfont.svg#BurguesScriptRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
   font-family: 'Bitter', serif;
   background-color: #fdf6e3;
@@ -55,105 +67,174 @@ pre {
   font-size: 40%;
 }
 
+.kinda-small {
+  font-size: 70%;
+}
+
+.big {
+  font-size: 180%;
+}
+
+.huge {
+  font-size: 200%;
+}
+
+.absurdly-big {
+  font-size: 700%;
+}
+.really-serify {
+  font-family: 'BurguesScriptRegular';
+  background: url('images/stars-sparkles.gif') repeat;
+  color: #FFF;
+}
+
+.takeaway {
+  background: url('images/takeaway.png') no-repeat center center;
+  color: #002b36;
+  background-color: #FFF;
+}
+
+.takeaway code {
+  <D-^>
+  color: #268BD2;
+}
+
 pre.sh_sourceCode {
-    background-color: #002b36;
-    color: #839496;
+  background-color: #002b36;
+  color: #839496;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_keyword {
-    /*color: #cb4b16;*/
-    color: #b58900;
+  color: #cb4b16;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_type {
-    color: #859900;
+  color: #859900;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_string {
-    /*color: #93a1a1;*/
-    color: #2aa198;
-}
-
-pre.sh_sourceCode .sh_symbol {
-    /*color: #93a1a1;*/
-    /*color: #2aa198;*/
-    /*color: #6c71c4;*/
+  color: #93a1a1;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_regexp {
-    /*color: #dc322f;*/
-    color: #d33683;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_specialchar {
-    color: #6c71c4;
+  color: #6c71c4;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_comment {
-    color: #586e75;
+  color: #586e75;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_number {
-    /*color: #dc322f;*/
-    color: #2aa198;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_preproc {
-    color: #6c71c4;
+  color: #6c71c4;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_function {
-    color: #d33682;
+  color: #d33682;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_url {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_date {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_time {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_file {
-    color: #cb4b16;
+  color: #cb4b16;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_ip {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_name {
-    color: #d33683;
+  color: #d33683;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_variable {
-    color: #b58900;
+  color: #b58900;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_oldfile {
-    color: #6c71c4;
+  color: #6c71c4;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_newfile {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_difflines {
-    color: #cb4b16;
+  color: #cb4b16;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_selector {
-    color: #b58900;
+  color: #b58900;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_property {
-    color: #2aa198;
+  color: #2aa198;
+  font-weight: normal;
+  font-style: normal;
 }
 
 pre.sh_sourceCode .sh_value {
-    color: #dc322f;
+  color: #dc322f;
+  font-weight: normal;
+  font-style: normal;
 }
+
